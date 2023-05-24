@@ -1,0 +1,21 @@
+//Defining variables
+let newNumber = 10;
+let favAnimal = 'Pidgeon';
+let newStatement = 'My favorite animal is: ';
+let numStatement = 'I would like ';
+let myLoveForCows = false;
+
+//manipulating variables
+myLoveForCows = true;
+favAnimal = 'Cow';
+newNumber += 5;
+
+//concatenating strings
+console.log(newStatement+favAnimal);
+console.log(`${numStatement}${newNumber} ${favAnimal}s.`);
+
+//determining variable types
+console.log(typeof newNumber);
+console.log(typeof numStatement);
+console.log(typeof myLoveForCows);
+console.log(typeof numStatement+typeof newNumber);

@@ -1,0 +1,17 @@
+//today's forecast tempurature stored in a variable.
+const kelvin = 300;
+//conversion from Kelvin to Celsius
+const celsius = kelvin-273;
+//convert Celsius to Farenheit 
+let fahrenheit = celsius*(9/5)+32;
+//rounds down farenheit to a whole number
+fahrenheit = Math.floor(fahrenheit);
+//Converts Celsius temperature to Newton
+let newton = celsius*(33/100);
+// rounds down newton to a whole number
+newton = Math.floor(newton);
+//Weather for today in each temperature print to console
+console.log(`The temperature is ${kelvin} degrees Kelvin.`);
+console.log(`The temperature is ${fahrenheit} degrees Fahrenheit.`);
+console.log(`The temperature is ${celsius} degrees Celsius.`);
+console.log(`The temperature is ${newton} degrees Newton.`);

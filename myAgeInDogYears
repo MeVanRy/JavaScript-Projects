@@ -1,0 +1,17 @@
+//My age to calculate in dog years
+const myAge = 25;
+//early years which count for a different number of dog years
+let earlyYears = 2;
+//change early years variable to dog years
+earlyYears = 10.5*earlyYears;
+//calculate remaining years to convert
+var laterYears = myAge-2;
+//convert remaining years
+laterYears*=4;
+
+//total age in dog years
+myAgeInDogYears = earlyYears+laterYears;
+//my name in all lowercase letters
+myName = ('EliZaBeTh'.toLowerCase());
+//print all information to console as a sentence using interpolation
+console.log(`My name is ${myName}. I am ${myAge} years old in human years which is ${myAgeInDogYears} years old in dog years.`);
